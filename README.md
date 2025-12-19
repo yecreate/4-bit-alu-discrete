@@ -12,7 +12,7 @@ A fully functional 4-bit ALU designed and built using **74HC-series discrete log
 ---
 
 ## 📸 Hardware Preview
-*(Add a photo of your final breadboard here)*
+![Hardware Preview](hardware/Wiring_Map.jpg)
 
 ## 🚀 Features
 * **4 Operations:** AND, OR, ADD, SUB (Selectable via 2-bit Opcode).
@@ -35,7 +35,7 @@ Due to component availability constraints during the build phase, we engineered 
 * **Solution:** Designed a 4:1 Mux using **Triple 3-Input AND (74HC11)** and **OR (74HC32)** gates.
 * **Outcome:** Successfully validated internal Mux logic and completed the routing path without the specific IC.
 
-![Discrete Mux Logic](schematics/Discrete_Mux_Logic.jpg)
+![Discrete Mux Logic](schematics/Discrete_Mux_Logic.png)
 
 ## ⚠️ Technical Notes
 **The CD4511 Limitation:**
@@ -47,4 +47,5 @@ The display decoder is strictly BCD (0-9). Results from 10-15 (0xA - 0xF) trigge
 * **Malak Mohamed** (24030212) - Documentation & Testing
 
 ## 📄 License
+
 This project is open-source under the [MIT License](LICENSE).
