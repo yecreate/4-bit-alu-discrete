@@ -34,6 +34,8 @@ Due to component availability constraints during the build phase, we engineered 
 * **Problem:** Missing second 74HC153 IC.
 * **Solution:** Designed a 4:1 Mux using **Triple 3-Input AND (74HC11)** and **OR (74HC32)** gates.
 * **Outcome:** Successfully validated internal Mux logic and completed the routing path without the specific IC.
+  
+![4-Bit_ALU](schematics/4-Bit_ALU.png)
 
 ![Discrete Mux Logic](schematics/Discrete_Mux_Logic.png)
 
@@ -49,3 +51,4 @@ The display decoder is strictly BCD (0-9). Results from 10-15 (0xA - 0xF) trigge
 ## 📄 License
 
 This project is open-source under the [MIT License](LICENSE).
+
